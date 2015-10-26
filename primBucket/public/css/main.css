@@ -1,0 +1,465 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: -webkit-linear-gradient(top, #777069 0, #393A3F 100%);
+	background-image: -o-linear-gradient(top, #777069 0, #393A3F 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#777069), to(#393A3F));
+	background-image: linear-gradient(to bottom, #777069 0, #393A3F 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#777069', endColorstr='#393A3F', GradientType=0);
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	background-color: #393A3F;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	width: 100%;
+	height: 100%;
+}
+.nav-logo{
+	float: left!important;
+	padding-top: 13px;
+	margin-right: 85px;
+}
+
+
+/*headers*/
+h2 {
+	display: inline-block;
+}
+h2, h3 {
+	margin: 0;
+}
+
+
+.glyphicon-menu-hamburger {
+    font-size: 2.0em;
+    color: black;
+    margin-top: 8px;
+}
+
+a.dropdown-toggle {
+	margin-right: 5px;
+	cursor:pointer;
+}
+
+
+
+/* DSIS Container Changes */
+.dsis-theme {
+	margin-left: 43px;
+	margin-right: 43px;
+}
+.content-container{
+	margin-left: 43px;
+	margin-right: 0;
+	padding: 0 5px 10px 5px;
+	background-color:#FFF;
+}
+/*Buttons*/
+.navbar-default .navbar-nav>li>a {
+	color: #2b2b2b;
+}
+.btn-default {
+	text-shadow: 0 1px 0 #fff;
+	background-image: -webkit-linear-gradient(top, #f2f2f2 0, #b7b7b7 100%);
+	background-image: -o-linear-gradient(top, #f2f2f2 0, #b7b7b7 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#b7b7b7));
+	background-image: linear-gradient(to bottom, #f2f2f2 0, #b7b7b7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#b7b7b7', GradientType=0);
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	border-color: #ccc;
+}
+.btn-default:hover, .btn-default:focus {
+	background-color: #b7b7b7;
+	background-position: 0 -15px
+}
+.btn-default:active, .btn-default.active {
+	background-color: #e0e0e0;
+	border-color: #ccc;
+}
+.btn-default:disabled, .btn-default[disabled] {
+	background-color: #e7e7e7;
+	background-image: none;
+}
+
+/*Navigation*/
+
+.navbar {
+	margin-bottom:0 ;
+}
+
+.navbar-inverse .navbar-brand, .navbar-global .navbar-brand{
+color: #fff;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+	background-color: #ff9933;
+	background-image: -webkit-linear-gradient(top, #ff9933 0, #ff9933 100%);
+	background-image: -o-linear-gradient(top, #ff9933 0, #ff9933 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9933), to(#ff9933));
+	background-image: linear-gradient(to bottom, #ff9933 0, #ff9933 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9933', endColorstr='#ff9933', GradientType=0);
+	background-repeat: repeat-x
+}
+.navbar-default {
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
+filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	border-radius: 0;
+	border: 0;
+	background-image: linear-gradient(to bottom, #89BCF1 0, #89BCF1 100%);
+
+}
+
+/*Need to confirm what Irfan's team named this class*/
+.navbar-global {
+	background-color: #2b2b2b;
+	border-color: #2b2b2b;
+	background-repeat: repeat-x;
+	margin-left: 43px;
+}
+.navbar-adjust {
+	margin-left: 43px;
+	position: relative;
+	z-index: 100;
+}
+
+.navbar-app {
+	background-color: #89BCF1;
+	border-color: #89BCF1;
+	background-repeat: repeat-x;
+	margin-top: 50px;
+	margin-left: 43px;
+}
+.navbar-app a {
+	color: #2b2b2b;
+}
+.navbar-app a:hover {
+	color: #8d6834;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-global .navbar-nav>li>a{
+	color: #FFF;
+}
+
+.navbar-global .navbar-nav>li>a:hover{
+	color: #2b2b2b;
+	background-color: #e8e6dd;
+}
+.navbar-global .navbar-nav>li>a:focus{
+	color: #2b2b2b;
+	background-color: #ff9900;
+}
+.navbar-inverse {
+	background-color: #2b2b2b;
+	border-color: #2b2b2b;
+	background-image: -webkit-linear-gradient(top, #2b2b2b 0, #2b2b2b 100%);
+	background-image: -o-linear-gradient(top, #2b2b2b 0, #2b2b2b100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#2b2b2b), to(#2b2b2b));
+	background-image: linear-gradient(to bottom, #2b2b2b 0, #2b2b2b 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b2b2b', endColorstr='#2b2b2b', GradientType=0);
+filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	margin-left: 43px;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.active>a {
+	background-image: -webkit-linear-gradient(top, #ff9933 0, #ff9933 100%);
+	background-image: -o-linear-gradient(top, #ff9933 0, #ff9933 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9933), to(#ff9933));
+	background-image: linear-gradient(to bottom, #ff9933 0, #ff9933 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9933', endColorstr='#ff9933', GradientType=0);
+	background-repeat: repeat-x;
+	-webkit-box-shadow: inset 0 3px 9px rgba(0,0,0,.075);
+	box-shadow: inset 0 3px 9px rgba(0,0,0,.075);
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	background-image: -webkit-linear-gradient(top, #ff9933 0, #ff9933 100%);
+	background-image: -o-linear-gradient(top, #ff9933 0, #ff9933 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9933), to(#ff9933));
+	background-image: linear-gradient(to bottom, #ff9933 0, #ff9933 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9933', endColorstr='#ff9933', GradientType=0);
+	background-repeat: repeat-x;
+	-webkit-box-shadow: inset 0 3px 9px rgba(0,0,0,.075);
+	box-shadow: inset 0 3px 9px rgba(0,0,0,.075);
+	color: #2b2b2b;
+	background-color: #ff9933;
+}
+.navbar-global .navbar-nav>.active>a, .navbar-global .navbar-nav>.active>a:hover, .navbar-global .navbar-nav>.active>a:focus {
+	background-image: -webkit-linear-gradient(top, #ff9933 0, #ff9933 100%);
+	background-image: -o-linear-gradient(top, #ff9933 0, #ff9933 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9933), to(#ff9933));
+	background-image: linear-gradient(to bottom, #ff9933 0, #ff9933 100%);
+	background-repeat: repeat-x;
+	-webkit-box-shadow: inset 0 3px 9px rgba(0,0,0,.075);
+	box-shadow: inset 0 3px 9px rgba(0,0,0,.075);
+	color: #2b2b2b;
+	background-color: #ff9933;
+}
+.navbar{
+	max-height: 20px;
+}
+.nav-container{
+	padding-left:  50px;
+	padding-right: 50px;
+}
+.navbar-brand{
+	font-weight: 100;
+}
+
+.pagination {
+	margin: 0;
+}
+
+
+
+/*Tables*/
+.table th {
+	background-color: #948f78!important;
+	color: #2b2b2b !important;
+}
+.table-bordered th, .table-bordered td {
+	border: none!important
+}
+.table-striped>tbody>tr:nth-child(odd) {
+	background-color: #e5e1d0
+}
+.table-hover>tbody>tr:hover {
+	background-color: #c8c7c3
+}
+
+/*Tabs*/
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+	color: #555;
+	cursor: default;
+	background-color: #ff9933;
+	border: 1px solid #ff9933;
+	border-bottom-color: transparent
+}
+.nav-tabs>li>a {
+	margin-right: 2px;
+	line-height: 1.42857143;
+	border: 1px solid #eee;
+	border-radius: 4px 4px 0 0
+}
+
+/*Dropdown Menus*/
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+	background-color: #ff9933;
+	background-image: -webkit-linear-gradient(top, #ff9933 0, #ff9933 100%);
+	background-image: -o-linear-gradient(top, #ff9933 0, #ff9933 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9933), to(#ff9933));
+	background-image: linear-gradient(to bottom, #ff9933 0, #ff9933 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9933', endColorstr='#ff9933', GradientType=0);
+	background-repeat: repeat-x
+}
+
+/*Jumbotron*/
+.jumbotron {
+	background-color: #e5e1d0
+}
+
+/*Callouts*/
+.bs-callout{
+	padding: 20px;
+	margin: 20px 0;
+	border: 1px solid #eee;
+	border-left-width: 5px;
+	border-radius: 3px;
+}
+.bs-callout-info{
+	border-left-color: #1b809e;
+}
+/*Carousel*/
+.carousel-control.left {
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,.5) 0, rgba(0,0,0,.0001) 100%);
+	background-image: -o-linear-gradient(left, rgba(0,0,0,.5) 0, rgba(0,0,0,.0001) 100%);
+	background-image: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,.5)), to(rgba(0,0,0,.0001)));
+	background-image: linear-gradient(to right, rgba(0,0,0,.5) 0, rgba(0,0,0,.0001) 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+	background-repeat: repeat-x
+}
+.carousel-control.right {
+	right: 0;
+	left: auto;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,.0001) 0, rgba(0,0,0,.5) 100%);
+	background-image: -o-linear-gradient(left, rgba(0,0,0,.0001) 0, rgba(0,0,0,.5) 100%);
+	background-image: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,.0001)), to(rgba(0,0,0,.5)));
+	background-image: linear-gradient(to right, rgba(0,0,0,.0001) 0, rgba(0,0,0,.5) 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+	background-repeat: repeat-x
+}
+
+/*DSIS Container*/
+.outerContainer{
+	background-color: #ffffff;
+	padding: 3px;
+	margin-bottom: 20px;
+}
+
+.maxHeight{
+	min-height:150px;
+}
+.panel-default{
+	border-color: #6983F7;
+}
+.panel{
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.panel-default>.panel-heading {
+	background-image: -webkit-linear-gradient(top, #89BCF1 0, #89BCF1 100%);
+	background-image: -o-linear-gradient(top, #89BCF1 0, #89BCF1 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#89BCF1), to(#89BCF1));
+	background-image: linear-gradient(to bottom, #89BCF1 0, #89BCF1 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#89BCF1', endColorstr='#89BCF1', GradientType=0);
+	background-repeat: repeat-x;
+	background-color: #89BCF1;
+	border-color: #89BCF1;
+}
+.panel-heading{
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.panel-body{
+	padding: 5px;
+}
+
+/*DSIS Toolbar Buttons*/
+.btn-dsis-toolbar {
+	background-color: transparent;
+}
+.btn-dsis-toolbar:hover, .btn-dsis-toolbar:focus {
+	background-color: #89BCF1;
+	background-position: 0px 15px;
+	padding: 5px 8px;
+}
+.btn-dsis-toolbar:active, .btn-dsis-toolbar.active {
+	background-color: #e0e0e0;
+	border-color: #ccc;
+}
+.btn-dsis-toolbar:disabled, .btn-dsis-toolbar[disabled] {
+	background-color: #e7e7e7;
+	background-image: none;
+}
+/* Toolbars*/
+#left-nave {
+	background-color: transparent;
+	position: absolute;
+	top: 105px;
+	left: 0px;
+	height: 90%;
+	width: 40px;
+}
+#right-nave {
+	background: #fff;
+	border-radius: 3px;
+	border: 1px #8d6834 solid;
+	position: absolute;
+	top: 105px;
+	right: 0px;
+	height: 90%;
+	width: 40px;
+}
+
+
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; /////////////////////////////////////////////////////////////////////////////////// This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+
+/* Flexible iFrame */
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.fillHeight {
+	bottom:0;
+	left:0;
+}
+
+
+/*flyout menus*/
+/*flyout menus*/
+
+		div.flyout {
+		display: none;
+		position: absolute;
+		width: 400px;
+		border: 1px solid #977456;
+		background-color: #4A5C69;
+		box-shadow: 6px 8px 9px #aaa;
+		}
+		/*.right-menu  menu right of the trigger */
+		/* .bottom-menu menu bottom of the trigger  */
+		.point-arrow{
+			position: absolute;
+			width: 0;
+			height: 0;
+		}
+		.menu-bottom .point-arrow{
+			border-left: 17px solid transparent;
+			border-right: 17px solid transparent;
+			border-bottom: 17px solid #567C97;
+			top: -17px;
+		}
+		..menu-top .point-arrow {
+			border-left: 17px solid transparent;
+			border-right: 17px solid transparent;
+			border-top: 17px solid #977456;
+			bottom: -17px;
+		}
+		.menu-right .point-arrow {
+			border-top: 17px solid transparent;
+			border-bottom: 17px solid transparent;
+			border-right:17px solid #977456;
+		left: -17px;
+		}
+		.menu-left .point-arrow {
+			border-top: 17px solid transparent;
+			border-bottom: 17px solid transparent;
+			border-left:17px solid #977456;
+			right: -17px;
+		}
+
+		a.flyout {
+			color: #fff;
+		}
+		
+/*app-menu*/
+		ul.app-menu {
+			margin: 10px;
+		}
+
+		ul.app-menu {
+			list-style-type: none;
+		}
+		ul.app-menu li a {
+		    color: #000;
+		    font-size: 1.7em;
+		    text-transform: capitalize;
+		}
+

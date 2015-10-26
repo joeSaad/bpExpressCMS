@@ -1,0 +1,19 @@
+{
+	"uses" : "layout2",
+	"panel1" : {
+		"panel_title" : "dashboard2 > Panel I",
+		"component" : "component1"
+	},
+	"panel2" : {
+		"panel_title" : "dashboard2 > Panel II",
+		"component" : "component2"
+	},
+	"panel3" : {
+		"panel_title" : "dashboard2 > Panel III",
+		"component" : "component3"
+	},
+	"panel4" : {
+		"panel_title" : "dashboard2 > Panel IV",
+		"component" : "component2"
+	}
+}

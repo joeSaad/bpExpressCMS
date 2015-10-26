@@ -1,0 +1,15 @@
+doctype html
+html
+	head
+	title= title
+	link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
+	link(rel='stylesheet', href='/css/main.css')
+	script(src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+	body
+		header
+			include main-header.jade
+			include secondary-header.jade
+			.content-container.container-fluid
+				block content
+		//include ./includes/footer.jade
+	script(src='/javascripts/main.js')

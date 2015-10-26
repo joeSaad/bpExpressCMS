@@ -1,0 +1,33 @@
+extends ../includes/masterpage
+
+block content
+	block vars
+	//h1= title
+	//p Welcome to #{title}
+	h2 #{uses}
+	.row
+		.col-lg-12
+					.panel.panel-default
+						.panel-heading
+							h3 #{panel1.panel_title}
+						.panel-body
+							iframe(src='#{panel1.component}',frameborder="0",width="100%",height="330")
+	.row
+		.col-lg-4
+					.panel.panel-default
+						.panel-heading
+							h3 #{panel2.panel_title}
+						.panel-body
+							iframe(src='#{panel2.component}',frameborder="0",width="100%",height="330")
+		.col-lg-4
+					.panel.panel-default
+						.panel-heading
+							h3 #{panel3.panel_title}
+						.panel-body
+							iframe(src='#{panel3.component}',frameborder="0",width="100%",height="330")
+		.col-lg-4
+					.panel.panel-default
+						.panel-heading
+							h3 #{panel4.panel_title}
+						.panel-body
+							iframe(src='#{panel4.component}',frameborder="0",width="100%",height="330")

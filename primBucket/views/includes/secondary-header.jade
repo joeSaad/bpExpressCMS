@@ -1,0 +1,12 @@
+nav.navbar.navbar-default.navbar-adjust.navbar-fixed-top
+	.container-fluid
+		.navbar-header
+			a.dropdown-toggle.flyout.fly-menu1(data-toggle="dropdown",dataplacement="bottom")
+				span.glyphicon.glyphicon-menu-hamburger(aria-hidden="true")
+			h2 page Name is #{title}
+			.flyout.fly-menu1.menu-bottom
+				.point-arrow
+				ul.app-menu
+					each val in menuPages
+						li
+							a(href=val)= val
